@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 VK. All rights reserved.
 //
 
-#import "VKApiObjectArray.h"
+#import <VKSdkFramework/VKApiObjectArray.h>
 
 @interface VKPhotoSize : VKApiObject
 @property(nonatomic, readwrite, copy) NSString *src;

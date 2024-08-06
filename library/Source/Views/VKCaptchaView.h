@@ -21,7 +21,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "VKError.h"
+#import <VKSdkFramework/VKError.h>
 
 extern CGFloat kCaptchaImageWidth;
 extern CGFloat kCaptchaImageHeight;

@@ -21,8 +21,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKObject.h"
-#import "VKApiConst.h"
+#import <VKSdkFramework/VKObject.h>
+#import <VKSdkFramework/VKApiConst.h>
 
 static int const VK_API_ERROR = -101;
 static int const VK_API_CANCELED = -102;

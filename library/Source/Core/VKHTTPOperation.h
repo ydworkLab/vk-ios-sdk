@@ -24,7 +24,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKOperation.h"
+#import <VKSdkFramework/VKOperation.h>
 
 extern NSString *const VKNetworkingOperationDidStart;
 

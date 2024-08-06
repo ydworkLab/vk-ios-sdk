@@ -21,9 +21,9 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKRequest.h"
-#import "VKApiConst.h"
-#import "VKObject.h"
+#import <VKSdkFramework/VKRequest.h>
+#import <VKSdkFramework/VKApiConst.h>
+#import <VKSdkFramework/VKObject.h>
 
 /**
 * Basic class for all API-requests builders (parts)

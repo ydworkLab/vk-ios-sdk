@@ -24,8 +24,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VKObject.h"
-#import "VKUser.h"
+#import <VKSdkFramework/VKObject.h>
+#import <VKSdkFramework/VKUser.h>
 
 /**
  * Represents VK API access token that used for loading API methods and other stuff.

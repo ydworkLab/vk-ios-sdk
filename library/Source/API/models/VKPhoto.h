@@ -20,9 +20,9 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "VKApiObject.h"
-#import "VKApiObjectArray.h"
-#import "VKPhotoSize.h"
+#import <VKSdkFramework/VKApiObject.h>
+#import <VKSdkFramework/VKApiObjectArray.h>
+#import <VKSdkFramework/VKPhotoSize.h>
 
 /**
 Photo type of VK API. See descriptions here https://vk.com/dev/photo
