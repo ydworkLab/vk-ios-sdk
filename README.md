@@ -1,7 +1,7 @@
 vk-ios-sdk
 ==========
 
-Library for working with VK API, authorizing through VK app, using VK API methods. Supported iOS from 8.0
+Library for working with VK API, authorizing through VK app, using VK API methods. Supported iOS from 12.0
 Prepare for Using VK SDK
 ----------
 
@@ -61,7 +61,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 
 `Podfile`
 
-    platform :ios, '8.0'
+    platform :ios, '12.0'
     target 'YourProjectName' do
       pod 'VK-ios-sdk'
     end
@@ -324,7 +324,7 @@ UIActivityViewController *activityViewController = [[UIActivityViewController al
                                                     applicationActivities:@[[VKActivity new]]]; //2
 [activityViewController setValue:@"VK SDK" forKey:@"subject"]; //3
 [activityViewController setCompletionHandler:nil]; //4
-if (VK_SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")) {
+if (VK_SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"12.0")) {
     UIPopoverPresentationController *popover = activityViewController.popoverPresentationController;
     popover.sourceView = self.view;
     popover.sourceRect = [tableView rectForRowAtIndexPath:indexPath];
