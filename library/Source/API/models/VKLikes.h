@@ -21,7 +21,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKApiObject.h"
+#import <VKSdkFramework/VKApiObject.h>
 
 /**
 Likes type of VK API

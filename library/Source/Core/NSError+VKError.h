@@ -21,7 +21,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKError.h"
+#import <VKSdkFramework/VKError.h>
 
 extern NSString *const VKSdkErrorDomain;
 extern NSString *const VkErrorDescriptionKey;

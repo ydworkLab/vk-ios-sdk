@@ -21,13 +21,13 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "VKApiObject.h"
-#import "VKApiObjectArray.h"
-#import "VKCounters.h"
-#import "VKPhoto.h"
-#import "VKSchool.h"
-#import "VKUniversity.h"
-#import "VKRelative.h"
+#import <VKSdkFramework/VKApiObject.h>
+#import <VKSdkFramework/VKApiObjectArray.h>
+#import <VKSdkFramework/VKCounters.h>
+#import <VKSdkFramework/VKPhoto.h>
+#import <VKSdkFramework/VKSchool.h>
+#import <VKSdkFramework/VKUniversity.h>
+#import <VKSdkFramework/VKRelative.h>
 
 @interface VKGeoObject : VKApiObject
 @property(nonatomic, strong) NSNumber *id;

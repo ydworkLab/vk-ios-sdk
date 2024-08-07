@@ -20,9 +20,9 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "VKRequest.h"
-#import "VKImageParameters.h"
-#import "VKOperation.h"
+#import <VKSdkFramework/VKRequest.h>
+#import <VKSdkFramework/VKImageParameters.h>
+#import <VKSdkFramework/VKOperation.h>
 
 /**
 Provides common part of photo upload process

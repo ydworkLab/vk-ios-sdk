@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 VK. All rights reserved.
 //
 
-#import "VKHTTPOperation.h"
+#import <VKSdkFramework/VKHTTPOperation.h>
 
 /**
  Operation for parsing response string to JSON object, and returning JSON result

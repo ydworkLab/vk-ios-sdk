@@ -20,8 +20,8 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "VKAccessToken.h"
-#import "VKError.h"
+#import <VKSdkFramework/VKAccessToken.h>
+#import <VKSdkFramework/VKError.h>
 
 typedef NS_ENUM(NSUInteger, VKAuthorizationState) {
     /// Authorization state unknown, probably ready to work or something went wrong

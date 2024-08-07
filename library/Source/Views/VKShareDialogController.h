@@ -21,8 +21,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "VKObject.h"
-#import "VKUploadImage.h"
+#import <VKSdkFramework/VKObject.h>
+#import <VKSdkFramework/VKUploadImage.h>
 
 
 typedef NS_ENUM(NSInteger, VKShareDialogControllerResult) {
