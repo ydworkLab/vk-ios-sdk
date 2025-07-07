@@ -1,18 +1,19 @@
-// swift-tools-version:5.3
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "vk-ios-sdk",
+    name: "VK-iOS-SDK",
     products: [
         .library(
-            name: "vk-ios-sdk",
-            targets: ["vk-ios-sdk"]),
+            name: "VK-iOS-SDK",
+            targets: ["VK-iOS-SDK"]
+        )
     ],
     targets: [
         .target(
-            name: "vk-ios-sdk",
+            name: "VK-iOS-SDK",
             resources: [
                 .copy("VkResources"),
             ],
@@ -27,7 +28,7 @@ let package = Package(
                 .headerSearchPath("Source/Core"),
                 .headerSearchPath("Source/Image"),
                 .headerSearchPath("Source/Utils"),
-                .headerSearchPath("Source/Views"),
+                .headerSearchPath("Source/Views")
             ]
         )
     ]
