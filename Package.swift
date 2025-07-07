@@ -13,8 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "vk-ios-sdk",
-            dependencies: [
-            ],
             resources: [
                 .copy("VkResources"),
             ],
