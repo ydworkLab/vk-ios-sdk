@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "VK-iOS-SDK",
+    defaultLocalization: "ru",
     products: [
         .library(
             name: "VK-iOS-SDK",
