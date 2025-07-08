@@ -17,7 +17,7 @@ let package = Package(
             name: "VK-iOS-SDK",
             path: "library",
             resources: [
-                .copy("VkResources"),
+                .copy("Resources"),
             ],
             publicHeadersPath: ".",
             cSettings: [
