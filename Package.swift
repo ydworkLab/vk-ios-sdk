@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "VK-iOS-SDK",
+            path: "library",
             resources: [
                 .copy("VkResources"),
             ],
