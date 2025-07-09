@@ -20,7 +20,7 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <VKSdkFramework/VKObject.h>
+#import "Core/VKObject.h"
 
 #define VKLocalizedString(s) [VKBundle localizedString:s]
 #define VKImageNamed(s)      [VKBundle vkLibraryImageNamed:s]
