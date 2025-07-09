@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 VK. All rights reserved.
 //
 
-#import <VKSdkFramework/VKApiBase.h>
+#import "VKApiBase.h"
 
 @interface VKApiGroups : VKApiBase
 /**
