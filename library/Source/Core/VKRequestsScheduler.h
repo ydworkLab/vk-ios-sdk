@@ -21,7 +21,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import <VKSdkFramework/VKObject.h>
+#import "VKObject.h"
 
 @class VKRequest;
 
