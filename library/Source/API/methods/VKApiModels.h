@@ -20,13 +20,13 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <VKSdkFramework/VKApiObjectArray.h>
-#import <VKSdkFramework/VKPhoto.h>
-#import <VKSdkFramework/VKLikes.h>
-#import <VKSdkFramework/VKUser.h>
-#import <VKSdkFramework/VKRelative.h>
-#import <VKSdkFramework/VKCounters.h>
-#import <VKSdkFramework/VKSchool.h>
-#import <VKSdkFramework/VKUniversity.h>
-#import <VKSdkFramework/VKGroup.h>
-#import <VKSdkFramework/VKDocs.h>
+#import "../models/VKApiObjectArray.h"
+#import "../models/VKPhoto.h"
+#import "../models/VKLikes.h"
+#import "../models/VKUser.h"
+#import "../models/VKRelative.h"
+#import "../models/VKCounters.h"
+#import "../models/VKSchool.h"
+#import "../models/VKUniversity.h"
+#import "../models/VKGroup.h"
+#import "../models/VKDocs.h"
