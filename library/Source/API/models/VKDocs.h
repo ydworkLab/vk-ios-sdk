@@ -21,8 +21,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import <VKSdkFramework/VKApiObject.h>
-#import <VKSdkFramework/VKApiObjectArray.h>
+#import "VKApiObject.h"
+#import "VKApiObjectArray.h"
 
 @class VKPhoto;
 
