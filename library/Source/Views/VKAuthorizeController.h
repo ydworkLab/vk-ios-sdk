@@ -21,7 +21,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <VKSdkFramework/VKSdk.h>
+#import "../VKSdk.h"
 extern NSString *VK_AUTHORIZE_URL_STRING;
 
 typedef NS_ENUM(NSInteger, VKAuthorizationType) {
