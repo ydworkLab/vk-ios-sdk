@@ -21,17 +21,17 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import <VKSdkFramework/VKRequest.h>
-#import <VKSdkFramework/VKApiUsers.h>
-#import <VKSdkFramework/VKApiFriends.h>
-#import <VKSdkFramework/VKApiPhotos.h>
-#import <VKSdkFramework/VKApiWall.h>
-#import <VKSdkFramework/VKApiConst.h>
-#import <VKSdkFramework/VKApiCaptcha.h>
-#import <VKSdkFramework/VKApiGroups.h>
-#import <VKSdkFramework/VKApiDocs.h>
-#import <VKSdkFramework/VKImageParameters.h>
-#import <VKSdkFramework/VKApiModels.h>
+#import "../Core/VKRequest.h"
+#import "methods/VKApiUsers.h"
+#import "methods/VKApiFriends.h"
+#import "methods/VKApiPhotos.h"
+#import "methods/VKApiWall.h"
+#import "methods/VKApiConst.h"
+#import "methods/VKApiCaptcha.h"
+#import "methods/VKApiGroups.h"
+#import "methods/VKApiDocs.h"
+#import "../Image/VKImageParameters.h"
+#import "methods/VKApiModels.h"
 
 
 /**
