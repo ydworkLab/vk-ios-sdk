@@ -24,21 +24,21 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VKSdkFramework/VKAccessToken.h>
-#import <VKSdkFramework/VKPermissions.h>
-#import <VKSdkFramework/VKUtil.h>
-#import <VKSdkFramework/VKApi.h>
-#import <VKSdkFramework/VKApiConst.h>
-#import <VKSdkFramework/VKSdkVersion.h>
-#import <VKSdkFramework/VKCaptchaViewController.h>
-#import <VKSdkFramework/VKRequest.h>
-#import <VKSdkFramework/VKBatchRequest.h>
-#import <VKSdkFramework/NSError+VKError.h>
-#import <VKSdkFramework/VKApiModels.h>
-#import <VKSdkFramework/VKUploadImage.h>
-#import <VKSdkFramework/VKShareDialogController.h>
-#import <VKSdkFramework/VKActivity.h>
-#import <VKSdkFramework/VKAuthorizationResult.h>
+#import "VKAccessToken.h"
+#import "VKPermissions.h"
+#import "Utils/VKUtil.h"
+#import "API/VKApi.h"
+#import "API/methods/VKApiConst.h"
+#import "VKSdkVersion.h"
+#import "Views/VKCaptchaViewController.h"
+#import "Core/VKRequest.h"
+#import "VKBatchRequest.h"
+#import "Core/NSError+VKError.h"
+#import "API/methods/VKApiModels.h"
+#import "Image/VKUploadImage.h"
+#import "Views/VKShareDialogController.h"
+#import "Views/VKActivity.h"
+#import "VKAuthorizationResult.h"
 /**
  Options used for authorization.
  */
