@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 VK. All rights reserved.
 //
 
-#import <VKSdkFramework/VKApiObjectArray.h>
-#import <VKSdkFramework/VKUser.h>
+#import "VKApiObjectArray.h"
+#import "VKUser.h"
 
 /**
  Geo-object type
