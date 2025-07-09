@@ -20,7 +20,7 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <VKSdkFramework/VKApiBase.h>
+#import "VKApiBase.h"
 
 /**
 Methods for captcha work. Currently, it is 1 method for forcing captcha response
