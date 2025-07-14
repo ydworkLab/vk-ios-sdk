@@ -16,9 +16,6 @@ let package = Package(
         .target(
             name: "VK-iOS-SDK",
             path: "library",
-            resources: [
-                .copy("Resources"),
-            ],
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("DynamicFramework"),
